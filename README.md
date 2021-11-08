@@ -44,5 +44,5 @@ Updated my Fill Stack Web Developer portfolio from scratch using some of the new
 ```
 
 ## My Links
-[Deployed Portfolio Page]()
-[GitHub]()
+[Deployed Portfolio Page](https://oscarp76.github.io/new-portfolio-project/)
+[GitHub](https://github.com/OscarP76)

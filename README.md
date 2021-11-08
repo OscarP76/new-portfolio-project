@@ -5,7 +5,7 @@ HTML, CSS, Materialize
 ## Summary
 Updated my Fill Stack Web Developer portfolio from scratch using some of the new skills I have acquired.
 ## Preview of the site
-![]()
+![image](./assets/new-portfolio-grab)
 ## Code Snippet
 ```
   <div class="row">

@@ -44,5 +44,5 @@ Updated my Fill Stack Web Developer portfolio from scratch using some of the new
 ```
 
 ## My Links
-[]()
-[]()
+[Deployed Portfolio Page]()
+[GitHub]()

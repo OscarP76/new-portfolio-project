@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>portfoliO</title>
+</head>
+
+
+<body>
+<div class="bg">
+    <nav>
+        <div class="nav-wrapper blue-grey darken-2">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#profile_image" class="green-text text-lighten-3">About Me</a></li>
+                <li><a href="#Projects" class="green-text text-lighten-3">Projects</a></li>
+                <li><a href="#contact_me" class="green-text text-lighten-3">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <h4 class="green-text text-darken-3 text-align center">Oscar Plumridge</h4>
+    </section>
+
+    <div class="row">
+        <div class="col s4 offset-s4">
+          <div class="card">
+            <div class="card-image">
+              <img src="./assets/profile-pic.jpg" id="profile_image">
+              <span class="card-title green-text text-lighten-3">Full Stack Bootcamp Student</span>
+            </div>
+            <div class="card-content">
+              <p class="text-align center">I am a full stack web development student. <br> Below you will find some of the projects I have created. <br> 
+                The first two cards contain solo projects, and the third, the 1st of many team projects....</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+    <div class="row" id="Projects">
+        <div class="col s6">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="/assets/dashboard-grab.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i
+                            class="material-icons right">more_vert</i></span>
+                    <p><a href="https://oscarp76.github.io/op-week6-homework/" class="green-text text-darken-3">Weather
+                            Dashboard Link</a></p>
+                            <p><a href="https://github.com/OscarP76/op-week6-homework" class="green-text text-darken-3">Github Repo Link</a></p>       
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Weather Dashboard<i
+                            class="material-icons right">close</i></span>
+                    <p>This weather dashboard was created using HTML, CSS, Bootstrap, JavaScript, & JQuery. <br>
+                        I created a 5 day forecast using an API key from openweathermap.org.<br>
+                        The weather forecast uses logic to include the weather patterns for the present and for the next 5 days.
+                        The text area input saves to local storage. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s6">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="/assets/daily-planner-grab.png">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Daily Planner<i
+                            class="material-icons right">more_vert</i></span>
+                    <p><a href="https://oscarp76.github.io/daily-work-planner/" class="green-text text-darken-3">Daily
+                            Planner Link</a></p>
+                            <p><a href="https://github.com/OscarP76/daily-work-planner" class="green-text text-darken-3">Github Repo Link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Work Day Scheduler<i
+                            class="material-icons right">close</i></span>
+                    <p>This project was built using HTML, CSS, Bootstrap, JavaScript, & JQuery.<br>
+                        The daily planner includes logic to determine past present and future with regards to the time of day. <br>
+                        The text area inputs save to local storage and also deletes from local storage. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="col s8 offset-s2">
+                <div class="card">
+                    <div class="card-image">
+                        <img
+                            src="https://user-images.githubusercontent.com/89271807/139503807-58fab0d3-4d74-4965-9b46-890ed0e9d4bc.png">
+                        <span class="card-title green-text text-lighten-3">Giphy Meets Movies</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="flow-text text-align center">This is the first team project that I got to work on. This is a webpage that my team and I
+                            created for movie lovers. <br>
+                            We call the site Giphy meets Movies. a user types in a movie of their choosing and is given
+                            relevant information about <br>
+                            the movie they entered. Then they are shown Gif's that accompany their chosen movie
+                            selection. <br>
+                            Click on the link below and enjoy!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://hayvant.github.io/giphymeetsmovies/" class="green-text text-darken-3">Giphy
+                            Meets Movies!</a>
+                        <p><a href="https://github.com/hayvant/giphymeetsmovies" class="green-text text-darken-3">Github Repo Link</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="page-footer blue-grey lighten-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <i class="medium material-icons">description</i>
+                        <h5 class="green-text text-darken-4">Contact Info</h5>
+                        <p class="green-text text-lighten-4" id="contact_me">Contact Me:</p>
+                        <ul>
+                            <li>webdevop76@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <i class="medium material-icons">link</i>
+                        <h5 class="green-text text-darken-4">Links</h5>
+                        <ul>
+                            <li><a class="green-text text-lighten-4" href="mailto:bigop76.op@gmail.com">Email</a></li>
+                            <li><a class="green-text text-lighten-4" href="https://www.linkedin.com/in/oscar-plumridge/">Linkedin</a></li>
+                            <li><a class="green-text text-lighten-4" href="https://github.com/OscarP76">Github</a></li>
+                            <li><a class="green-text text-lighten-4" href="https://drive.google.com/file/d/1SCMn1ub9rBdNKjiE5YhIRRjnfVBXVI4D/view?usp=sharing">Resume</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">   
+                <div class="container green-text text-darken-4">
+                    © 2021 webdevOP76
+                </div>
+            </div>
+        </footer>
+    
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="./assets/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </div>
+</body>
+
+</html>

@@ -6,7 +6,8 @@ HTML, CSS, Materialize
 I remade my professional portfolio page from scratch using some of the <br> 
 new skills I have acquired since I made the previous poertfolio page.
 ## Preview of the site
-![]()
+![image](![new-portfolio-grab](https://user-images.githubusercontent.com/88392799/140963939-3186097d-0c6a-43ea-81f7-b288fdbcf8c6.png)
+)
 
 ## Code Snippet
 ```

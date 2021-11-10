@@ -6,7 +6,7 @@ HTML, CSS, Materialize
 I remade my professional portfolio page from scratch using some of the <br> 
 new skills I have acquired since I made the previous poertfolio page.
 ## Preview of the site
-![image]()
+![image](./assets/new-portfolio-grab.png)
 
 ## Code Snippet
 ```
@@ -36,5 +36,5 @@ new skills I have acquired since I made the previous poertfolio page.
 
 ```
 ## My Links
-[]()
-[]()
+[New Portfolio](https://oscarp76.github.io/new-portfolio-project/)
+[GitHub](https://github.com/OscarP76)
